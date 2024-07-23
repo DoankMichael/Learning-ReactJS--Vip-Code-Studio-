@@ -38,7 +38,7 @@ const Footer = (props) => {
 };
 
 CardProduct.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.array.isRequired,
 };
 
 Header.propTypes = {
