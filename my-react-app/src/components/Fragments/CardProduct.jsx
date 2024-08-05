@@ -53,9 +53,9 @@ Body.propTypes = {
 };
 
 Footer.propTypes = {
-  price: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
   handleAddToCart: PropTypes.func.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 CardProduct.Header = Header;
