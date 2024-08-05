@@ -79,7 +79,7 @@ const ProductsPage = () => {
             products.map((products) => (
               // eslint-disable-next-line react/jsx-key
               <CardProduct key={products.id}>
-                <CardProduct.Header image={products.image} />
+                <CardProduct.Header image={products.image} id={products.id} />
                 <CardProduct.Body name={products.title}>{products.description}</CardProduct.Body>
                 <CardProduct.Footer price={products.price} id={products.id} handleAddToCart={handleAddToCart} />
               </CardProduct>
