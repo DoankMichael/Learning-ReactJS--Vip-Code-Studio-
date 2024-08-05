@@ -14,12 +14,12 @@ class Counter extends React.Component {
     console.log("componentDidMount");
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log("componentDidUpdate");
-    if (this.state.count === 11) {
-      this.setState({ count: 0 });
-    }
-  }
+  // componentDidUpdate(prevProps, prevState) {
+  //   console.log("componentDidUpdate");
+  //   if (this.state.count === 11) {
+  //     this.setState({ count: 0 });
+  //   }
+  // }
   render() {
     return (
       <div className="flex items-center">
